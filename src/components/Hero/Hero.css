@@ -1,0 +1,21 @@
+#cont-ext-txt-hero{
+    grid-template-columns: 0.5fr 5fr;
+}
+
+
+
+.highlight-text{
+    background: -webkit-linear-gradient(#a3d4f5, #2023ec);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+}
+
+@media (max-width: 1023px) { 
+    #section-hero{
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+        grid-auto-flow: dense;
+    }
+ }
